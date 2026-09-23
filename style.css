@@ -1,0 +1,224 @@
+/*bases---------------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif;
+}
+/*variable ---------------------------*/
+
+/*typographies---------------------------*/
+  
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.barlow-condensed-thin {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.barlow-condensed-extralight {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.barlow-condensed-light {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-condensed-regular {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-condensed-medium {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-condensed-semibold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.barlow-condensed-bold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.barlow-condensed-extrabold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.barlow-condensed-black {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.barlow-condensed-thin-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.barlow-condensed-extralight-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.barlow-condensed-light-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.barlow-condensed-regular-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.barlow-condensed-medium-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.barlow-condensed-semibold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.barlow-condensed-bold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.barlow-condensed-extrabold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.barlow-condensed-black-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+/*Design de la page---------------------------*/
+
+.h100{
+    min-height: 100vh;
+    min-height: 100svh;
+}
+
+.sec1{
+    
+    background-image: url(asset/image/sequance1vrai.png);
+    display: flex;
+    
+    align-items: center;
+    background-size: cover;
+}
+.card1{
+    width: 200px;
+    height: 600px;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    background-color: aqua;
+    gap: 30px;
+   
+}
+
+h1{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 2500;
+    font-style: italic;
+}
+
+.sec2{
+    
+    background-color: rgb(46, 77, 104);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.card2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(210, 44, 11);
+}
+
+.sec3{
+    
+    background-color: rgb(206, 203, 42);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.card3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(58, 89, 184);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec4{
+    
+    background-color: rgb(138, 42, 206);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.card4{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(58, 184, 117);
+}

@@ -42,18 +42,21 @@ gsap. from("#boxallskin2", {
 /*Animation troisieme bloc----------*/
 let tl = gsap.timeline({
     repeat:-1,
-    yoyo: true,
+    yoyo: true
 
 })
-tl.to('#movingcard3',{
-    x:100,
+tl.from('#ezquichante22',{
+    x:40,
 })
-.to('#movingcard3',{
-    y:100,
+
+.to('#ezquichante22',{
+    x:-40,
 })
-.to('#movingcard3',{
-    x:-100,
-})
-.to('#movingcard3',{
-    y:-100,
+
+
+Draggable.create('#img199',{
+    type:'y,x,',                                   /*pour le petit vynille---------------------------*/
+ 
+    bounds : '#sec33',
+    
 })

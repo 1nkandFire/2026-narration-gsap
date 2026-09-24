@@ -7,14 +7,7 @@
 /*variable ---------------------------*/
 
 /*typographies---------------------------*/
-  
 
-.inter-<uniquifier> {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
 .barlow-condensed-thin {
   font-family: "Barlow Condensed", sans-serif;
@@ -134,62 +127,343 @@
 
 .sec1{
     
-    background-image: url(asset/image/sequance1vrai.png);
+    
     display: flex;
+    justify-content: center;
+    
     
     align-items: center;
     background-size: cover;
 }
+.vidéo {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+}
+
+
+
 .card1{
-    width: 200px;
+    width: 500px;
     height: 600px;
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    background-color: aqua;
-    gap: 30px;
+    background-color: rgba(255, 0, 255, 0.344);
+    padding-right: 200px;
+    padding-left: 100px;
+    border-radius: 30px;
+    border:2px solid;color: yellow;
    
 }
 
-h1{
+.titre{
+    font-family: "Barlow Condensed", sans-serif;
+    size: 400px;
+    font-style: italic;
+    color: aliceblue;
+    padding-left: 200px;
+    font-size: 100px;
+    
+}
+
+.titre1{
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 2500;
     font-style: italic;
+    color: aliceblue;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    font-size: 70px;
+
 }
 
-.sec2{
+.t1{
+  color: yellow;
+  font-size: 30px;
+}
+.t2{
+  color: yellow;
+}
+.t3{
+  color: aliceblue;
+}
+
+
+
+
+
+#sec2{
     
-    background-color: rgb(46, 77, 104);
+    background-image: url(asset/image/fond\ de\ sequence\ 2.jpg);
     display: flex;
-    justify-content:center ;
+    justify-content:space-around ;
     align-items: center;
+    flex-direction: column;
+    
 }
 
 .card2{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(210, 44, 11);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: rgba(255, 0, 255, 0.344); 
+    margin-bottom: 100px;
+    border:2px solid;color: yellow;
+    
+    
 }
+
+.t1sc2{
+  color:yellow
+}
+.t2sc2{
+  color: white;
+}
+
+.boxAllSkin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 250px;
+  gap: 40px;
+}
+
+
+.boxkayn{
+  width: 180px;
+  height: 400px;
+  background-color: rgba(127, 255, 212, 0.429);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  border-radius: 15px;
+  border:2px solid;color: yellow;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+}
+
+
+.imgkayn{
+  width: 150px;
+  height: 200px;
+  padding-top: 20px;
+  border-radius: 20px;
+  
+}
+
+.boxezreal{
+  width: 180px;
+  height: 400px;
+  background-color: rgba(211, 0, 0, 0.235);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  border-radius: 15px;
+  border:2px solid;color: yellow;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+}
+
+.imgezreal{
+  width: 150px;
+  height: 200px;
+  padding-top: 20px;
+  border-radius: 20px;
+  
+}
+
+
+.boxsett{
+  width: 180px;
+  height: 400px;
+  background-color: rgba(53, 7, 133, 0.279);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  border-radius: 15px;
+  border:2px solid;color: yellow;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+}
+
+.imgsett{
+  width: 150px;
+  height: 200px;
+  padding-top: 20px;
+  border-radius: 20px;
+  
+}
+
+.boxyone{
+  width: 180px;
+  height: 400px;
+  background-color: rgba(224, 1, 231, 0.366);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  border-radius: 15px;
+  border:2px solid;color: yellow;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+}
+
+.imgyone{
+  width: 150px;
+  height: 200px;
+  padding-top: 20px;
+  border-radius: 20px;
+  
+}
+
+.boxksante{
+  width: 180px;
+  height: 400px;
+  background-color: rgba(133, 87, 7, 0.284);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  border-radius: 15px;
+  border:2px solid;color: yellow;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+}
+.imgksante{
+  width: 150px;
+  height: 200px;
+  padding-top: 20px;
+  border-radius: 20px;
+  
+}
+
+.boxaphelios{
+  width: 180px;
+  height: 400px;
+  background-color: rgba(1, 49, 128, 0.286);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  border-radius: 15px;
+  border:2px solid;color: yellow;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+}
+
+.imgaphelios{
+  width: 150px;
+  height: 200px;
+  padding-top: 20px;
+  border-radius: 20px;
+  
+}
+
 
 .sec3{
     
-    background-color: rgb(206, 203, 42);
+    background-image: url(asset/image/fond\ séquence\ 3!.jpg);
     display: flex;
-    justify-content:center ;
-    align-items: center;
+    flex-direction: column;
+    
+    
 }
 
+.box1s3{
+  display: flex;
+  justify-content: space-between;
+  align-items:start ;
+  flex-direction: row;
+  gap: 20px;
+  
+  width: 100%;
+  height: 400px;
+  margin-top: 40px;
+  
+  
 
 
-
-
-
+}
 
 .card3{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(58, 89, 184);
+  width: 200px;
+    height: 250px;
+  
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+  flex-direction: column;
+  background-color: rgba(137, 43, 226, 0.277);
+  gap: 30px;
+  margin-left: 35px;
 }
+
+.imgezchante{
+  width: 120px;
+  height: 140px;
+}
+
+.ts32{
+  color: yellow;
+}
+
+
+
+.card4sc3{
+  width: 200px;
+    height: 200px;
+  
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+  flex-direction: column;
+  background-color: rgb(43, 128, 226);
+  gap: 30px;
+
+}
+
+
+.card5sc3{
+
+  width: 200px;
+    height: 200px;
+  
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+  flex-direction: column;
+  background-color: rgb(226, 43, 61);
+  gap: 30px;
+  margin-right: 35px;
+
+}
+
+
+.box2s3{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end ;
+  flex-direction: row;
+  gap: 20px;
+  background-color: rgb(157, 0, 255);
+  width: 100%;
+  height: 400px;
+
+}
+
+
+
 
 
 

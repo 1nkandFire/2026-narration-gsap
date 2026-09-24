@@ -8,25 +8,28 @@ gsap.registerPlugin(ScrollTrigger, Observer, ScrollToPlugin, Draggable, MotionPa
 
 
 /*Animation premier bloc----------*/
-/*gsap. from("#movingcard1", {
-    y:'-1200px',
-    rotation: 360,
+gsap. from("#movingcard1", {
+    y:'-2000px',
+    
     duration: 2,
-    repeat: -1,
-    yoyo: true,
+    
+    yoyo:true
 })
+
+
+
 
 /*Animation deuxieme bloc----------*/
 
 
-gsap. from("#movingcard2", {
+gsap. from("#boxallskin2", {
 
     scrollTrigger: {
-        trigger:'#sec22',
+        trigger:'#sec2',
         start: 'top 50%',
         scrub :1 ,
         //markers:true,
-        id :'sec22',
+        id :'sec2',
         toggleActions:'play none reverse reset ',
 
     },
@@ -53,14 +56,4 @@ tl.to('#movingcard3',{
 })
 .to('#movingcard3',{
     y:-100,
-})
-
-
-
-/*Animation quatrieme  bloc----------*/
-Draggable.create('#movingcard4',{
-    type:'y,x,',
-    //type:'rotation',  
-    bounds : '#sec44',
-
 })
